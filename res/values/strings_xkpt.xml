@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Xperia Keyboard Prediction Toggle</string>
+    <string name="title_settings">XKPT Settings</string>
+
+    <string name="pref_showX_t">Show auto-correction mode:</string>
+
+    <string name="pref_scalet_t">Mode popup text width scale</string>
+    <string name="pref_scalet_s">Change the width scale of text within the mode selection popup window</string>
+    
+    <string name="pref_scalel_t">Mode popup layout width scale</string>
+    <string name="pref_scalel_s">Change the width scale of the mode selection popup window</string>
+</resources>
