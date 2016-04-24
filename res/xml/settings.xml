@@ -1,7 +1,7 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/title_settings"
-    android:key="xkptsettings">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+>
 	    <CheckBoxPreference
 	        android:key="show0"
 	        android:title="@string/pref_showX_t"
@@ -27,7 +27,7 @@
 	        android:title="@string/pref_scalet_t"
             android:summary="@string/pref_scalet_s"
 	        android:defaultValue="80"
-	        android:text="%"
+	        app:textSuffix="%"
             android:max="100"
 	    />
 	    <xeed.library.preference.SeekBarPreference
@@ -35,7 +35,7 @@
 	        android:title="@string/pref_scalel_t"
             android:summary="@string/pref_scalel_s"
 	        android:defaultValue="90"
-	        android:text="%"
+	        app:textSuffix="%"
             android:max="200"
 	    />
 </PreferenceScreen>
