@@ -1,5 +1,0 @@
--keep public class xeed.xposed.xkptgl.PredictionToggle
-
--keepattributes InnerClasses
-
--libraryjars ../Libraries/XposedBridgeApi.jar

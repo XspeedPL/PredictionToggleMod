@@ -28,7 +28,7 @@
             android:summary="@string/pref_scalet_s"
 	        android:defaultValue="80"
 	        app:textSuffix="%"
-            android:max="100"
+            app:maxValue="100"
 	    />
 	    <xeed.library.preference.SeekBarPreference
 	        android:key="scaleLayout"
@@ -36,6 +36,6 @@
             android:summary="@string/pref_scalel_s"
 	        android:defaultValue="90"
 	        app:textSuffix="%"
-            android:max="200"
+            app:maxValue="200"
 	    />
 </PreferenceScreen>
